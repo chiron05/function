@@ -129,7 +129,6 @@ def most_frequent(string1):
         mydict["z"] = str(z)
 
     list1=list(mydict.items())
-    print(list1)
     tuple1=tuple(list1)
     tuple1=sorted(mydict.items(),reverse=True, key=lambda x: x[1])
     for num in tuple1:
